@@ -31,5 +31,3 @@ def get_candidates_by_skill(skill_name):
     if skill_name in item["skills"]:
       candidates_by_skill.append(item)
   return candidates_by_skill
-
-
